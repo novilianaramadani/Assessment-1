@@ -5,7 +5,7 @@ let buku = [
 ];
 
 function cekPeminjaman() {
-    let jumlah = parseInt(document, getElementById('jumlah').value);
+    let jumlah = parseInt(document.getElementById('jumlah').value);
     let bukuTerpilih = document.getElementById('buku').value;
 
     if (jumlah === 0 || isNaN(jumlah)) {
